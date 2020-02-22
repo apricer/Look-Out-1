@@ -1,0 +1,86 @@
+{
+    "rules": {
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "curly": true,
+        "eofline": true,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "jsdoc-format": true,
+        "max-line-length": [true, 120],
+        "member-ordering": [
+            true,
+            "public-before-private",
+            "static-before-instance"
+        ],
+        "no-any": false,
+        "no-consecutive-blank-lines": true,
+        "no-console": [true, ["log", "error"]],
+        "no-construct": true,
+        "no-duplicate-variable": true,
+        "no-duplicate-key": true,
+        "no-empty": true,
+        "no-eval": true,
+        "no-internal-module": true,
+        "no-require-imports": true,
+        "no-trailing-whitespace": true,
+        "no-unreachable": true,
+        "no-unused-expression": true,
+        "no-unused-variable": [true],
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "no-var-requires": true,
+        "object-literal-sort-keys": true,
+        "one-line": [
+            true,
+            "check-else",
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "semicolon": true,
+        "trailing-comma": [
+            true, 
+            {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        ],
+        "triple-equals": [
+            true
+        ],
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        ],
+        "use-strict": [true, "check-module"],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+html, body {
+  height:100vh;
+  margin:0;
+  padding:0;
+  width:100vw;
+  background-color:#282b3a;
+  }
+
+#map {
+  height: 80vh;
+  width: auto;
+}
+
+#logo {
+  height: 12vh;
+}
+
+#content {
+  margin-top: 1%;
+}
+
+#crimeTable {
+  height: 80vh !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 720px) {
+html {
+  overflow: hidden;
+}
+}
